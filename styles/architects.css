@@ -120,6 +120,48 @@ main{
 }
 
 
+/* some facts */
+.facts-card-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.facts-container-title{
+    color: #131313;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.facts-description{
+    color: #727272;
+    margin-bottom: 70px;
+}
+
+.facts-container{
+    padding: 20px 60px;
+}
+
+.card{
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 150px;
+    height: 150px;
+}
+
+.card-stats{
+    color: #424242;
+}
+
+.card-title{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
 
 
 /* RESPONSIVE STYLES */
@@ -151,7 +193,21 @@ main{
         padding-right: 20px;
         padding-left: 20px;
     }
+
+    /* some facts */
+    .facts-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facts-container {
+        padding: 20px;
+        text-align: center;
+    }
 }
+
+
+
 
 
 
@@ -175,6 +231,10 @@ main{
 
     .features-images{
         padding: 30px;
+    }
+
+    .facts-card-container {
+        flex-wrap: wrap;
     }
     
 }
