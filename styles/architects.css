@@ -16,6 +16,10 @@
 
 }
 
+.text-light-gray{
+    color: #727272;
+}
+
 /* header */
 header{
     background-color: rgba(255, 144, 14, 0.10);
@@ -162,6 +166,53 @@ main{
 }
 
 
+/* services styles */
+
+.services-container{
+    display: flex;
+    margin-top: 130px;
+}
+
+
+.services-title{
+    color: #131313;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+
+.service-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin: 40px 120px 15px 0;
+}
+
+.tenyearsbadge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    text-align: center;
+    padding: 15px 5px;
+
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+}
+
+.tenyearsbadge h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.tenyearsbadge p{
+    font-size: 1.5rem;
+}
+
+
+
 
 /* sponsors styles */
 
@@ -197,6 +248,13 @@ main{
     padding: 40px 120px;
     margin: 0 220px;
 }
+
+
+
+
+
+
+
 
 
 /* RESPONSIVE STYLES */
@@ -269,6 +327,7 @@ main{
         padding: 30px;
     }
 
+    /* features */
     .features-container{
         flex-direction: column-reverse;
         text-align: center;
