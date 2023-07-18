@@ -311,6 +311,28 @@ main{
         padding: 20px;
         margin: 0;
     }
+
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    .services-image img{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .tenyearsbadge {
+       margin: 10px auto;
+       position: static;
+    }
+
+    .service-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
 }
 
 
@@ -354,6 +376,28 @@ main{
     /* footer */
     .footer {
         margin: 0;
+    }
+
+    /* services */
+    .services-container {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    
+    .services-image img{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .tenyearsbadge {
+       margin: 10px auto;
+       position: static;
+    }
+
+    .service-card {
+        margin: 50px auto;
+
     }
     
 }
