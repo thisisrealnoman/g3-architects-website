@@ -125,7 +125,7 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 80px;
+    gap: 90px;
 }
 
 .facts-container-title{
@@ -162,6 +162,41 @@ main{
 }
 
 
+
+/* sponsors styles */
+
+.sponsors-container{
+    text-align: center;
+    padding: 20px 60px;
+}
+.sponsors-images{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.sponsors-title{
+    color:#131313;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.sponsors-description{
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #FFF4E7;
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 120px;
+    margin: 0 220px;
+}
 
 
 /* RESPONSIVE STYLES */
@@ -204,6 +239,20 @@ main{
         padding: 20px;
         text-align: center;
     }
+
+    /* sponsors */
+    .sponsors-container {
+        padding: 20px;
+    }
+
+    .sponsors-images {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 20px;
+        margin: 0;
+    }
 }
 
 
@@ -235,6 +284,17 @@ main{
 
     .facts-card-container {
         flex-wrap: wrap;
+    }
+
+    /* sponsors */
+
+    .sponsors-images {
+        flex-wrap: wrap;
+    }
+
+    /* footer */
+    .footer {
+        margin: 0;
     }
     
 }
